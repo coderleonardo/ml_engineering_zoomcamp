@@ -4,6 +4,7 @@
 
 ### 1.1 - Introduction to Machine Learning
 Some introduction concepts about machine learning like 
+
 		- *features* and *targets*
 		- features + targets -> ML -> Model
 		- How to make predictions	
@@ -12,12 +13,14 @@ Some introduction concepts about machine learning like
 	
 ### 1.2 - Machine Learning vs Rule-Based Systems
 Some cases about ML vs Rule-Based Systems
+
 		- When to use ML or Rule-Based Systems
 		- How to maintain a performative model
 		- Applications
 	
 ### 1.3 - Supervised Machine Learning
 Formalization of some concepts about machine learning like *supervised learning*
+
 		- Feature Matrix and target vector: (X, y)
 			- Regression
 			- Classification
@@ -26,6 +29,7 @@ Formalization of some concepts about machine learning like *supervised learning*
 		
 ### 1.4 - CRISP-DM
 Cross Industry Standard Process for Data Mining (CRISP-DM) for developing a machine learning project:
+
 		- Step 1 (Business understanding): define a measurable goal (do we need ML?)
 		- Step 2 (Data understanding): do we have the data? Is it good?
 		- Step 3 (Data preparation): transform data into a table, so we can put it into ML
@@ -35,6 +39,7 @@ Cross Industry Standard Process for Data Mining (CRISP-DM) for developing a mach
     
 ### 1.5 - Model Selection
 Model selection steps:
+
 	    - Step 1: Split data into train/validation/test
 	    - Step 2: Train a model
 	    - Step 3: Validate it
