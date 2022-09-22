@@ -1,6 +1,6 @@
 # Machine Learning Engineering (Zoomcamp) - Data Talks 
 
-## 2 - Machine Learning for Classification
+## 3 - Machine Learning for Classification
 
 * 3.1 - Churn Prediction Project
 We want to indentify clients which can churn our telco service and for those clients we want to give some discount to avoid that.
