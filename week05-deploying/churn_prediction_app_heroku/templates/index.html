@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Churn prediction</title>
+
+    <head>
+
+        <body style="background: #000;">
+            <div class="login">
+                <h1 style="color:violet;">Churn prediction</h1>
+
+                <form action="{{ url_for('predict')}}" method="post">
+                    <input type="text" name="gender" placeholder="gender (male/female)" required="required" size="50"><br>
+                    <input type="text" name="seniorcitizen" placeholder="seniorcitizen (0/1)" required="required" size="50"><br>
+                    <input type="text" name="partner" placeholder="partner (yes/no)" required="required" size="50"><br>
+                    <input type="text" name="dependents" placeholder="dependents (yes/no)" required="required" size="50"><br>
+                    <input type="text" name="phoneservice" placeholder="phoneservice (yes/no)" required="required" size="50"><br>
+                    <input type="text" name="multiplelines" placeholder="multiplelines (yes/no/no_phone_service)" required="required" size="50"><br>
+                    <input type="text" name="internetservice" placeholder="internetservice (fiber_optic/dsl/no)" required="required" size="50"><br>
+                    <input type="text" name="onlinesecurity" placeholder="onlinesecurity (yes/no/no_internet_service)" required="required" size="50"><br>
+                    <input type="text" name="onlinebackup" placeholder="onlinebackup (yes/no/no_internet_service)" required="required" size="50"><br>
+                    <input type="text" name="deviceprotection" placeholder="deviceprotection (yes/no/no_internet_service)" required="required" size="50"><br>
+                    <input type="text" name="techsupport" placeholder="techsupport (yes/no/no_internet_service)" required="required" size="50"><br>
+                    <input type="text" name="streamingtv" placeholder="streamingtv (yes/no/no_internet_service)" required="required" size="50"><br>
+                    <input type="text" name="streamingmovies" placeholder="streamingmovies (yes/no/no_internet_service)" required="required" size="50"><br>
+                    <input type="text" name="contract" placeholder="contract (month-to-month/one_year/two_year)" required="required" size="50"><br>
+                    <input type="text" name="paymentmethod" placeholder="paymentmethod (bank_transfer_(automatic)/credit_card_(automatic)/electronic_check/mailed_check)" required="required" size="90"><br>
+                    <input type="text" name="tenure" placeholder="tenure (period of contract) (integer)" required="required" size="50"><br>
+                    <input type="text" name="monthlycharges" placeholder="monthlycharges (real number)" required="required" size="50"><br>
+
+                    <button type="submit" class="btn btn-primary btn-block btn-large">Predict if the client will churn or not</button></p>
+
+                </form>
+
+                <br>
+                <br>
+
+                <h4 style="color:Violet;">
+                    {{ prediction_text }} </h4>
+
+
+            </div>
+            
+        </body>
+    </head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
