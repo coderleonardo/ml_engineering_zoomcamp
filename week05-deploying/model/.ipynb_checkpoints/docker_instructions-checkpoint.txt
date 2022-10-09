@@ -1,0 +1,8 @@
+-- To build docker image
+sudo docker build -t zoomcamp-test .
+
+-- To run docker image with the port 9696 of the localhost expose
+sudo docker run -it --rm -p 9696:9696 zoomcamp-test:latest
+
+-- To predict the churn probability
+python predict_test.py

@@ -94,4 +94,7 @@
     - Logistic regression - linear model like linear regression
     - Output of log reg - probability
     - Interpretation of weights is similar to linear regression
+    
+### Chapter 4: Evaluation Metrics for Classification
+
 
