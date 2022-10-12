@@ -97,4 +97,34 @@
     
 ### Chapter 4: Evaluation Metrics for Classification
 
+* 4.1 Evaluation metrics: session overview
+
+* 4.2 Accuracy and dummy model
+
+* 4.3 Confusion table
+
+* 4.4 Precision and Recall
+
+* 4.5 ROC Curves
+
+* 4.6 ROC AUC
+
+* 4.7 Cross-Validation
+
+### Chapter 5 - Deploying Machine Learning Models
+
+* 5.1 Intro / Session overview
+
+* 5.2 Saving and loading the model
+
+* 5.3 Web services: introduction to Flask
+
+* 5.4 Serving the churn model with Flask
+
+* 5.5 Python virtual environment: Pipenv
+
+* 5.6 Environment management: Docker
+
+* 5.7 Deployment to the cloud: AWS Elastic Beanstalk (optional)
+
 
