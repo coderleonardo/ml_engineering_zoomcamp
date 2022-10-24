@@ -1,13 +1,13 @@
 bentoml build
 
 # use the output tag
-bentoml containerize credit_risk_classifier:qxpvq2stekt2scns --platform=linux/amd64
+bentoml containerize credit_risk_classifier:<...> --platform=linux/amd64
 
 (if any error related to docker happen, see this video: https://www.youtube.com/watch?v=XfZvKLNXC9M&t=51s)
 or use the command: "su - ${USER} to use docker without "sudo"
 
-# To run your newly built Bento container, pass "credit_risk_classifier:4lqayrstc2rwiqj4" to "docker run".
-docker run -it --rm -p 3000:3000 credit_risk_classifier:qxpvq2stekt2scns serve --production
+# To run your newly built Bento container, pass "credit_risk_classifier:<...>" to "docker run".
+docker run -it --rm -p 3000:3000 credit_risk_classifier:<...> serve --production
 
 aws configure
 (see the this video: https://www.youtube.com/watch?v=aF-TfJXQX-w&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=74)
