@@ -1,0 +1,10 @@
+service: "service.py:svc"
+labels:
+  owner: leonardo
+  project: credit_risk
+include:
+- "*.py"
+python:
+  packages:
+    - xgboost
+    - sklearn
