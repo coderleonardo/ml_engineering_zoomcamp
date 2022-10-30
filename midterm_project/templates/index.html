@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    table, th, td, input, button {
+        border:1px solid rgb(10, 10, 10);
+    }
+    input, button {font-size: 20px;}
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction of the price of a car</title>
+</head>
+<body style="background: rgb(206, 206, 206);">
+
+    <div style="width:800px; margin:0 auto;">
+        <h1 style="color:rgb(10, 10, 10);">Prediction of the value of a car based on its features</h1>
+    </div>
+    
+    <div style="width:800px; margin:0 auto;">
+        <h2 style="color:rgb(10, 10, 10);">Example of the features to input in the model</h2>
+        <table style="width:100%">
+        <tr>
+            <th>car_description</th>
+            <th>car_name</th>
+            <th>km_traveled</th>
+            <th>year</th>
+        </tr>
+        <tr>
+            <td>1.6 16v Advance Xtronic</td>
+            <td>Nissan Versa</td>
+            <td>6.214</td>
+            <td>2022</td>
+        </tr>
+        <tr>
+            <td>1.6 16v Flexstart S Xtronic</td>
+            <td>Nissan Kicks</td>
+            <td>41.417</td>
+            <td>2018</td>
+        </tr>
+        <tr>
+            <td>2.0 Lx 4x2 16v Automático</td>
+            <td>Honda Crv</td>
+            <td>51.683</td>
+            <td>2017</td>
+        </tr>
+        <tr>
+            <td>Freestyle 16v Powershift</td>
+            <td>Ford Ecosport</td>
+            <td>102.064</td>
+            <td>2012</td>
+        </tr>
+        
+        </table>
+    </div>
+
+    <div class="login" style="width:800px; margin:0 auto;">
+        <h2 style="color:rgb(10, 10, 10);">Input the car characteristics according to the example above</h1>
+
+        <form action="{{ url_for('predict')}}" method="post">
+            <input type="text" name="car_description" placeholder="car_description" required="required" size="50">
+            <p></p>
+            <input type="text" name="car_name" placeholder="car_name" required="required" size="50">
+            <p></p>
+            <input type="text" name="km_traveled" placeholder="km_traveled" required="required" size="50">
+            <p></p>
+            <input type="text" name="year" placeholder="year" required="required" size="50">
+            <p></p>
+            
+            <br>
+
+            <button type="submit" class="btn btn-primary btn-block btn-large">Show the price of the car</button></p>
+
+        </form>
+
+        <br>
+
+        <h3 style="color:rgb(10, 10, 10);"> {{ prediction_text }} </h4>
+
+
+    </div>
+
+</body>
+</html>
