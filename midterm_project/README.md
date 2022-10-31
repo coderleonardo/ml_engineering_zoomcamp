@@ -53,4 +53,7 @@ Download this repository with all the files. To run locally run the **app.py** f
  
        eb create car-price-env
         
-See the model working [here](https://www.linkedin.com/feed/update/urn:li:activity:6992590637694881792/).
+See the model working [here](https://www.linkedin.com/feed/update/urn:li:activity:6992590637694881792/) or in the video below:
+
+https://user-images.githubusercontent.com/81170729/198910489-1c213fde-2af3-42b4-b888-01326af9e5c9.mp4
+
