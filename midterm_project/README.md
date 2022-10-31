@@ -5,7 +5,7 @@ and later we make the prediction of how much a certain car should cost.
 
 ## Steps of the project
 
-### Step 0: Extract data from the we
+### Step 0: Extract data from the web
 The first step of this project was to extract data from the web through the Scrapy Framework. The data were extracted from the website [Creditas Auto](https://auto.creditas.com/), which is a website where you can buy semi-used cars.
 
 ### Step 1: Data preparation and data cleaning
