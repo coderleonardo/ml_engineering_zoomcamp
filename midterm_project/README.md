@@ -21,7 +21,7 @@ In this case, the model chosen was the Ridge model.
 ## Instructions on how to run the project
 Download this repository with all the files. To run locally run the **app.py** file.
 
-## To run with docker (Reference: https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/chapter-05-deployment)
+### To run with docker (Reference: https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/chapter-05-deployment)
 * Build the image
 
         docker build -t car-price-prediction .
@@ -32,7 +32,7 @@ Download this repository with all the files. To run locally run the **app.py** f
     
 (Do not forget to setup docker.)
 
-## To deploy on aws Elastic Beanstalk (If you get stuck see this [video](https://www.youtube.com/watch?v=HGPJ4ekhcLg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR))
+### To deploy on aws Elastic Beanstalk (If you get stuck see this [video](https://www.youtube.com/watch?v=HGPJ4ekhcLg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR))
 * Run to acces the environment
 
         pipenv shell
@@ -53,4 +53,4 @@ Download this repository with all the files. To run locally run the **app.py** f
  
         eb create car-price-env
         
-See the model working [here](https://www.linkedin.com/feed/update/urn:li:activity:6992590637694881792/)
+See the model working [here](https://www.linkedin.com/feed/update/urn:li:activity:6992590637694881792/).
