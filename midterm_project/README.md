@@ -33,9 +33,9 @@ Download this repository with all the files. To run locally run the **app.py** f
 (Do not forget to setup docker.)
 
 ### To deploy on aws Elastic Beanstalk (If you get stuck see this [video](https://www.youtube.com/watch?v=HGPJ4ekhcLg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR))
-* Run to acces the environment
+* Run to access the environment
 
-        pipenv shell
+       pipenv shell
     
  * Verify if Elastic Beanstalk is ok in the environment
  
@@ -51,6 +51,6 @@ Download this repository with all the files. To run locally run the **app.py** f
     
  * Create the environment on aws
  
-        eb create car-price-env
+       eb create car-price-env
         
 See the model working [here](https://www.linkedin.com/feed/update/urn:li:activity:6992590637694881792/).
