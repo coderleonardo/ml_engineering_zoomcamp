@@ -1,0 +1,18 @@
+# After run "ipython" in terminal
+
+Python 3.9.13 (main, Aug 25 2022, 23:26:10) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.31.1 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: ls
+dino_dragon_10_0.899.h5  Dockerfile  drogon.jpg                  lambda_function.py  test.py
+dino_dragon.tflite       dragon.jpg  from_keras_to_TFLite.ipynb  __pycache__/
+
+In [2]: import lambda_function
+
+In [3]: event = {'url': 'https://upload.wikimedia.org/wikipedia/en/e/e9/GodzillaEncounterModel.jpg'}
+
+In [4]: lambda_function.lambda_handler(event, None)
+Out[4]: {'dino': 0.3495880961418152}
+
+In [5]: 
