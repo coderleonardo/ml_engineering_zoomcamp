@@ -8,9 +8,6 @@
 - pipenv version: 
     ```$ pipenv --version >>> pipenv, version 2023.7.23```
 
-- First hash for sklearn:
-    - sha256:0c275a06c5190c5ce00af0acbb61c06374087949f643ef32d355ece12c4db043
-
 - Downloading the model:
 ```
 PREFIX=https://raw.githubusercontent.com/DataTalksClub/machine-learning-zoomcamp/master/cohorts/2023/05-deployment/homework
